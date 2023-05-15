@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("pexels-giorgio-de-angelis-1413412.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(179, 171, 26);
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    height: 30px;
+    border: ridge black;
+    border-width: 1px;
+    border-radius: 110px 5px 110px 5px;
+
+}
+
+#myText {
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    background-color: lightblue;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 110px 5px 110px 5px;
+}
+
+.playBtn {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+}
+
+.playBtn button {
+    height: 100px;
+    max-width: 150px;
+    background-color: rgba(218, 219, 207, 0.942);
+    color: black;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.playBtn button:hover {
+    text-shadow: 2px 2px 2px red;
+    font-weight: bolder;
+    box-shadow: 2px 2px 10px red;
+}
+
+@media screen and (max-width:1000px) {
+    h2 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        background-color: rgb(179, 171, 26);
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        border: ridge black;
+        border-width: 1px;
+        border-radius: 110px 5px 110px 5px;
+
+    }
+
+    #myText {
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        height: 50px;
+        text-align: center;
+        background-color: lightblue;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 110px 5px 110px 5px;
+    }
+
+    .playBtn {
+        display: flex;
+        justify-content: space-around;
+        height: 500px;
+        align-items: center;
+    }
+
+    .playBtn button {
+        height: 100px;
+        max-width: 150px;
+        background-color: rgba(218, 219, 207, 0.942);
+        color: black;
+        border-style: ridge;
+        border-color: black;
+        border-radius: 5px;
+        font-weight: 200px;
+        font-size: 20px;
+
+    }
+
+    @media(hover:none) {
+        .playBtn button:hover {
+            text-shadow: none;
+            font-weight: bolder;
+            box-shadow: none;
+        }
+
+    }
+}
