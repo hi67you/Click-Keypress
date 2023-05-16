@@ -62,7 +62,7 @@ h2 {
     box-shadow: 2px 2px 10px red;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1300px) {
     h2 {
         text-align: center;
         color: rgb(0, 0, 0);
