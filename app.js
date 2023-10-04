@@ -1,5 +1,5 @@
 var audio0 = new Audio("songs/Jai Jai Narayan Narayan Hari Hari (Female) - Hari Darshan 320 Kbps.mp3");
-var audio1 = new Audio("songs/Akhiyaan_Milaoon_Kabhi___Raja___Udit_Narayan___Alk.mp3");
+var audio1 = new Audio("songs/Akhiyaan_Milaoon_Kabhi___Raja___Udit_Narayan___Alk.mp3.webm");
 var audio2 = new Audio("songs/Main_Deewana_Deewana_Vaada_Song.mp3");
 var audio3 = new Audio("songs/Main_Ishq_Uska_Full_Song_Vaada.mp3");
 function jai(i) {
